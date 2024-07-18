@@ -1,0 +1,12 @@
+.circle-button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.player{
+    background: #3ebc25;
+}
+
+.opponent{
+    background: #bc2525;
+}

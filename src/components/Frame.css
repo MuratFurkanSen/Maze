@@ -1,0 +1,20 @@
+.inner-frame {
+    width: fit-content;
+    height: fit-content;
+    border: 5px solid #657b83;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 0;
+    flex-direction: column;
+}
+.outer-frame {
+    width: fit-content;
+    height: fit-content;
+    border: 5px solid #324f5a;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 0;
+}

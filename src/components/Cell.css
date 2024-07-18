@@ -1,0 +1,39 @@
+/*Container*/
+.cell {
+    display: flex;
+    flex-wrap: wrap;
+}
+/*Elements Default*/
+.square{
+    display: flex;
+    width: 70px;
+    height: 70px;
+    background: aqua;
+    align-items: center;
+    justify-content: center;
+
+}
+.horizontal-line{
+    width: 70px;
+    height: 5px;
+    background: #7da4b4;
+}
+.vertical-line{
+    width: 5px;
+    height: 70px;
+    background: #7da4b4;
+
+}
+.dot {
+    width: 5px;
+    height: 5px;
+    background: #7da4b4;
+}
+/*States of Elements */
+.wall{
+    background: #5f212d;
+}
+
+.highlighted{
+    background: #f3ff6a;
+}
