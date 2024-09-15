@@ -24,7 +24,6 @@ function Area() {
         grid.push(<div className="row">{row}</div>)
     }
     return grid;
-
 }
 function valIncludes(parentArr, subArr) {
     for (const arr of parentArr) {
